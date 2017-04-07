@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: 'muryhilb'; /*a name to be used later*/
+    src: url('bootstrap/fonts/ufonts.com_murray-hill-bold-regular.ttf'); /*URL to font*/
+}@font-face {
+    font-family: 'JosefinSans-Regular'; /*a name to be used later*/
+    src: url('bootstrap/fonts/JosefinSans-Regular.ttf'); /*URL to font*/
+}
+.body {
+	margin: 0px;
+	padding: 0px;
+
+}
+header { margin-top: 50px; height: auto; border-bottom: 1px solid gray }
+section {margin-top: 10px; height: 350px; display: block;  border-bottom: 1px solid gray;}
+footer { margin-top: 10px; height: 100px; background-color: #ffff80 }
+
+
+header nav { 
+	text-align: center;
+	width: 100%;
+	background-repeat: repeat-x;
+	font-family: JosefinSans-Regular;
+	padding: 0 5px;
+ }
+header .nav_img {
+	width: 150px;
+}
+header ul {
+	padding: 0 20px;
+	margin-left: 10%;
+	font-size: 34px;
+    line-height: 1.6;
+    margin-bottom: 17px;
+    list-style-position: inside;
+    display: block;
+
+}
+header ul li{
+	display: inline;
+	float: left;
+    display: block;
+    position: relative;
+    margin-left: 5%;
+}
+header nav  ul  li a {
+	font-size: 24px;
+	color: #7d7d7d;
+	float: left;
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	padding: 6px 20px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+footer .copyright{
+	padding-top: 50px;
+	font-size: 20px;
+	text-align: center;
+}
